@@ -1,1 +1,53 @@
+body {
+  background-image: url(images/background1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
 
+h1,
+h2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+hr {
+  width: 10em;
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.nav-links {
+  font-family: "Lato", sans-serif;
+  width: 1000px;
+  margin: 3em auto;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 20px;
+  padding: 1em;
+  margin: 1em;
+  box-sizing: border-box;
+  display: inline;
+  ;
+}
+
+.nav-link:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+}
